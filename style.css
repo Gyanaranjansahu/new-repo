@@ -1,0 +1,185 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+  
+}
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.links-box{
+    display: flex;
+    list-style: none;
+    margin: 10px;
+
+}
+.links{
+    margin: 0 10px;
+    padding: 5px;
+    border: 1px solid rgb(2, 82, 242);
+    border-radius: 5px;
+    transition: all 0.3s;
+}
+.links:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+    border-color: white;
+}
+
+.link-box{
+    display: flex;
+    text-align: center;
+}
+h2{
+    margin-top: 10px;
+}
+.info-box{
+    color: rgb(233, 11, 233);
+    margin-top: 8%;
+    height: 600px;
+    width: 500px;
+    margin-left: 10%;
+   
+}
+.info-list{
+    list-style: none;
+    display: flex;
+    font-size: 1.2rem;
+}
+.info{
+    width: 400px;
+    height: 50px;
+    border: 0.2px solid ;
+     text-align: center;
+     border-radius: 20px;
+     transition: all 0.4s;
+     margin: 20px;
+     
+}
+.logo1{
+    margin-right: 30px;
+    margin-top: 15px;
+    margin-left: 15px;
+
+}
+.phone-number{
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.phone-label{
+    margin-left: 15px;
+}
+.info:hover{
+    border-color: blanchedalmond;
+}
+.get{
+    margin-top: 10%;
+    margin-left: 10%;
+}
+.msg{
+    font-size: 3rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: linear-gradient(30deg,rgb(205, 7, 205) ,blue);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.info2{
+    margin-right: 20px;
+    margin-top: 40px;
+    width: 400px;
+    height: 50px;
+    border: 0.2px solid ;
+     text-align: center;
+     border-radius: 20px;
+     transition: all 0.4s;
+}
+.info2:hover{
+    border-color: white;
+}
+.name{
+    background: linear-gradient(30deg,purple,blue);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.opinion{
+    position: absolute;
+   left: 50%;
+   top: 20%;
+    height: 500px;
+    width: 600px;
+    border: 1px solid white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 20px;
+    text-align: center;
+    
+    background-color: rgb(28, 2, 42);
+    
+}
+.input{
+    margin: 20px;
+    width: 500px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(202, 198, 191);
+    height: 20px;
+    border-radius: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transition: all 0.2s;
+}
+.input:hover{
+    border-bottom: 2px solid rgb(248, 248, 248);
+}
+button{
+    
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgb(23, 1, 23);
+    border-color: violet;
+    color: violet;
+}
+.text{
+    margin: 3px;
+    margin-right: 10px;
+    position: absolute;
+    left: 10px;
+    background: linear-gradient(30deg,blue,violet,white);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+.opinion::after,.opinion::before{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(rgb(243, 39, 243),blue,white);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: -1;
+    padding: 3px;
+    border-radius: 20px;
+}
+.opinion::before{
+    filter: blur(20px);
+    opacity: 0.7;
+}
+
+
+
+
+body{
+    background-color: rgb(28, 2, 42);
+    color: white;
+}
+.info1{
+     width: 400px;
+    height: 50px;
+    border: 0.2px solid ;
+     text-align: center;
+     border-radius: 20px;
+     transition: all 0.4s;
+     margin: 20px;
+}
+.info1:hover{
+    
+    border-color: white;
+}
