@@ -81,7 +81,18 @@ h2{
     background: linear-gradient(30deg,rgb(205, 7, 205) ,blue);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    animation: up 2s ease-in infinite;
 }
+@keyframes up {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0); }
+}
+
+
+
+
+
 .info2{
     margin-right: 20px;
     margin-top: 40px;
@@ -182,4 +193,58 @@ body{
 .info1:hover{
     
     border-color: white;
+}
+.second-page{
+    height: 100vh;
+    width: 100vw;
+}
+.contain{
+    align-items: center;
+
+    display: flex;
+    justify-content: space-around;
+}
+.carrer{
+    height: 20rem;
+    width: 20rem;
+
+    text-align: center;
+    border-radius: 50px;
+    animation: moving 3s infinite;
+    
+
+}
+.skills-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20rem;
+    width: 20rem;
+
+    border-radius: 50px;
+     animation: moving 3s infinite;
+}
+.list-item{
+    list-style-type: none;
+    margin: 10px;
+    color: rgb(255, 255, 255);
+    
+}
+.logo-item{
+    font-size: larger;
+    margin: 20px;
+}
+.font{
+      font-size: 1rem;
+    padding-top: 110px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.h2{
+    margin: 20px;
+}
+@keyframes moving {
+    0%{transform: translateX(0);}
+    50%{transform: translateX(-10px);}
+    100%{transform: translateX(0%);}
+    
 }
